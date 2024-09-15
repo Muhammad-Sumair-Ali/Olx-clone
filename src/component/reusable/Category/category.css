@@ -1,0 +1,45 @@
+.category-cnt{
+  padding: 5px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: no-wrap;
+  overflow-y: scroll;
+  outline:none;
+  gap: 20px;
+}
+.category-card{
+  width:20%;
+  height: 110px;
+  text-align: center;
+  box-shadow: border-box;
+  font-size: 12px !important;
+}
+.category-card img{
+  width: 55px;
+} 
+
+.category-h2{
+  margin:10px;
+  float: right;
+  text-decoration:none;
+}
+
+
+/* laptop PC size  */
+@media only screen and (min-width: 768px) and (max-width: 1870px){
+  .category-cnt{
+  padding: 5px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.category-card{
+  width: 15%;
+  height: 100px;
+  font-size: 12px !important;
+}
+.category-card img{
+  width: 55px;
+}
+}

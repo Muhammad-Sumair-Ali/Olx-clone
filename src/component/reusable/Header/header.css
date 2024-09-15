@@ -1,0 +1,146 @@
+body{
+  margin: 0;
+}
+   /* 1st NavBar Here  */
+
+.top-cnt{
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.top-cnt i{
+  margin-right: 10px !important;
+}
+/* user-card Here */
+.user-card{
+  margin: 8px;
+  margin-left: auto;
+  display: inline-block;
+  
+}
+.user-card img{
+  width:60px;
+}
+.profile-image{
+  width: 40px;
+  padding: 4px;
+  border-radius: 50%;
+  border: 2px solid #7070ff; 
+}
+    /* 1st NavBar End  Here  */
+    
+    /* 2nd NavBar Start Here  */
+.header-nav{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+input{
+ border: 1px solid grey;
+ padding: 8px;
+}
+.first-input{
+  padding: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.second-input{
+  width: 50vw;
+}
+.second-input-icon{
+  display: flex;
+}
+.second-input-icon button {
+  border: none;
+  background: black;
+  color: white;
+}
+.login-sell{
+  margin:10px;
+  margin-left: auto;
+}
+.login-sell button{
+  background: #151515;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  border: none;
+  padding: 5px;
+  width: 70px;
+}
+/* sell button css here  */
+.sell-btn{
+  cursor: pointer
+  border-style: solid;
+  border-width: 5px;
+  border-top-color: #23e5db;
+  border-left-color: #ffce32;
+  border-right-color: #3a77ff;
+  border-bottom-color: #3a77ff;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 6px 17px;
+  border-radius: 30px;
+  background-color: white;
+  display: flexl;
+}
+  .sell-btn:hover{
+    transform: scale(1.2);
+    color:blue;
+    }
+                
+
+.login-btn{
+     background: #3939f7 !important;
+     color: white;
+   }
+.login-sell a{
+  text-decoration:underline;
+  color: white;
+}
+
+  /* 2nd End here */
+.btn-group{
+  display: flex;
+  align-items: center;
+  width: 40px;
+  max-width: 80px;
+}
+.third-nav-a{
+  margin-right: 10px;
+  padding: 5px;
+  color: black;
+}
+.third-nav-a:hover{
+  color: blue;
+  cursor: pointer;
+}
+.dropdown-menu h5{
+  margin: 4px;
+}
+ @media only screen and (max-width: 610px) and (min-width: 320px){
+   .first-input{
+     display: none;
+   }
+   .second-input{
+     width: 65vw;
+   }
+   .login-sell{
+     margin-right: 30px;
+   }
+   .sell-btn{
+     position: fixed;
+     bottom: 50px;
+      right: 42vw;
+     width: 70px;
+     z-index: 1;
+   }
+   
+ }
+ 
+  
+
+
+ 
